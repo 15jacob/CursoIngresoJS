@@ -5,4 +5,3 @@ function mostrar()
 {
 	alert("Dear World,");
 }
-

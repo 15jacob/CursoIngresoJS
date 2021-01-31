@@ -4,6 +4,10 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	alert("ok");
+	let primer_valor = parseInt(document.getElementById("txtIdNumeroUno").value),
+        segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value),
+        resultado_cuenta = primer_valor + segundo_valor;
+    
+    alert('El resultado de la cuenta es: ' +resultado_cuenta);
 }
 
