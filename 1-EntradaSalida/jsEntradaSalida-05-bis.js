@@ -3,10 +3,13 @@ Jacob Cristopher 1H
 Ejercicio 5-bis v2*/
 function mostrar()
 {	
-	let NombreDelAlumno = document.getElementById("txtIdNombre").value,
-        ApellidoDelAlumno = prompt("Ingrese su Apellido"),
-        EdadDelAlumno = document.getElementById("txtIdEdad").value;
-        
+    let nombreDelAlumno;
+    let apellidoDelAlumno;
+    let edadDelAlumno;
     
-    alert("Usted se llama " + NombreDelAlumno + " " + ApellidoDelAlumno +", y tiene " + EdadDelAlumno +" años");
+	nombreDelAlumno = document.getElementById("txtIdNombre").value;
+    apellidoDelAlumno = prompt("Ingrese su Apellido");
+    edadDelAlumno = document.getElementById("txtIdEdad").value;
+        
+    alert("Usted se llama " + nombreDelAlumno + " " + apellidoDelAlumno + ", y tiene " + edadDelAlumno + " años");
 }
