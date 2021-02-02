@@ -15,5 +15,5 @@ function SacarResto()
     resultado_division = parseInt(primer_valor / segundo_valor);
     resultado_resto = primer_valor % segundo_valor;
     
-    alert('El resultado de la division es ' + resultado_division + ' y el resto es ' + resultado_resto);	
+    alert("El resultado de la division es " + resultado_division + " y el resto es " + resultado_resto);	
 }

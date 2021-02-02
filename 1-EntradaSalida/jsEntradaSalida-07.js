@@ -12,7 +12,7 @@ function sumar()
     segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value);
     resultado_cuenta = primer_valor + segundo_valor;
     
-    alert('La sumatoria de estos numeros da ' + resultado_cuenta);	
+    alert("La sumatoria de estos numeros da " + resultado_cuenta);	
 }
 
 function restar()
@@ -24,7 +24,7 @@ function restar()
     segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value);
     resultado_cuenta = primer_valor - segundo_valor;
     
-    alert('El resto de estos numeros da ' + resultado_cuenta);	
+    alert("El resto de estos numeros da " + resultado_cuenta);	
 }
 
 function multiplicar()
@@ -36,7 +36,7 @@ function multiplicar()
     segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value);
     resultado_cuenta = primer_valor * segundo_valor;
     
-    alert('La division de estos numeros da ' + resultado_cuenta);	
+    alert("La division de estos numeros da " + resultado_cuenta);	
 }
 
 function dividir()
@@ -48,6 +48,6 @@ function dividir()
     segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value);
     resultado_cuenta = primer_valor / segundo_valor;
     
-    alert('Estos numeros multiplicados dan ' + resultado_cuenta);	
+    alert("Estos numeros multiplicados dan " + resultado_cuenta);	
 }
 

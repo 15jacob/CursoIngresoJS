@@ -12,6 +12,6 @@ function sumar()
     segundo_valor = parseInt(document.getElementById("txtIdNumeroDos").value);
     resultado_cuenta = primer_valor + segundo_valor;
     
-    alert('El resultado de la cuenta es: ' + resultado_cuenta);
+    alert("El resultado de la cuenta es: " + resultado_cuenta);
 }
 
