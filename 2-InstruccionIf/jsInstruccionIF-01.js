@@ -1,6 +1,14 @@
+//Jacob Cristopher 1H
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	//tomo la edad
+    let edad;
+    edad = document.getElementById("txtIdEdad").value;
+    
+    edad = parseInt(edad);
+    
+    if(edad == 15){
+        alert("niña bonita");
+    }
 
 }//FIN DE LA FUNCIÓN
